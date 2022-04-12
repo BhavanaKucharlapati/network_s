@@ -1,42 +1,49 @@
-# VISUALIZING THE INTERNET ARCHITECTURE PROJECT
+# Implementing the Internet architecture in Mininet 
 ## REQUIREMENTS
-PYTHON3 (Python-3.10.2 used)  
-JUPYTER NOTEBOOK (Jupyter notebook 6.4.5 used) 
+* VMware Workstation 16 Player
+* Ubuntu 64-bit
 ## Division of Nodes
-* Considered k valus as 5
-* Each team member has worked on nearly 250 nodes
-* Bhavana Kucharlapati -- from node id 5000 to 5249 -- network_security_1.ipynb(notebook name)
-* Kavya Konisa -- from  node id 5200 to 5449 -- network_security_2.ipynb
-* Venkata Revanth Kollipara -- from  node id 5400 to 5649 -- network_security_3.ipynb
-* Viswanth Boyina -- from  node id 5600 to 5849 -- network_security_4.ipynb
-*  Srija Pullakhandam -- from  node id 5800 to 6049 -- network_security_5.ipynb
-## IMPORTING OF NOTEBOOK
-* Open Jupyter Notebook  and upload **network_security_Number.ipynb**.
-*  **Number** values lies in between 1 to 5  
+* Team Number *4*
+* Considered nodes from 150 to 200
+## Open Vmware and start Ubuntu OS
+* Open Terminal in Ubuntu Os
+
+## Installation of Mininet
+* Give following command line by line:
+* $ sudo apt-get update
+* $ sudo apt-get upgrade
+* $ sudo apt-get dist-upgrade
+#### Install required git software
+* sudo apt-get install git
+#### Install mininet 2.0 from source code
+* $ git clone https://github.com/mininet/mininet
+#### The Mininet project provides an install script. Run the script. 
+* ~/mininet/util/install.sh -a
+
 
 ## INSTALL PACKAGES
 You'll also need to run the following commands to install some required packages.  
-```
- pip install -r requirements.txt
+
+ pip install pandas
  
- ```
+ 
+ 
 ## RUN THE CODE  
-* Open **network_security_Number.ipynb** in Jupyter notebook  
-* Run the cells line by line  
+* Save the code to following path /mininet/custom  
+* Run by using this command sudo mn –custom <python file name.py>  --topo=<class name>
+* We have considered file name as *project1.py* and class name as *project*
 
-## TO VIEW THE OUTPUT
-
-* The output consists of a dense network graph which can be zoomed in and out. The node size depends upon the degree of a node.
-* Inorder to view the output, hover over each node. While hovering it displays Source id, No. of connections, Neighbour node id's.
-
-## HISTOGRAM PLOT
-
-The histogram was plotted for 192,244 nodes and their degrees. The x-axis represents the node degree and the y-axis represents the count of nodes that falls in particular degree range. For better plotting used log function on the count scale due to the high count of nodes.
+## To view the Output
+ * Performed Ping test on all hosts
+ * Use either ping all command or hostname ping hostname
+  
+## Output Screenshot
+  
 
 ## AUTHOR'S INFORMATION
 
-* Bhavana Kucharlapati, bkucharl@ttu.edu, +16692816244
-*  Kavya Konisa, kkonisa@ttu.edu, +18064129889
-*   Venkata Revanth Kollipara, vekollip@ttu.edu, +16198555656
-*    Viswanth Boyina, vboyina@ttu.edu, +18065007185
-*    Srija Pullakhandam, spullakh@ttu.edu, +18064013679
+* Bhavana Kucharlapati, bkucharl@ttu.edu, Section-001, +16692816244
+*  Kavya Konisa, kkonisa@ttu.edu, Section-001, +18064129889
+*   Venkata Revanth Kollipara, vekollip@ttu.edu, Section-001, +16198555656
+*    Viswanth Boyina, vboyina@ttu.edu, Section-001, +18065007185
+*    Srija Pullakhandam, spullakh@ttu.edu, Section-001, +18064013679
