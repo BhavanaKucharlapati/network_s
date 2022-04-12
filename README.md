@@ -1,7 +1,7 @@
 # Implementing the Internet architecture in Mininet 
 ## REQUIREMENTS
 * VMware Workstation 16 Player
-* Ubuntu 64-bit
+* Ubuntu 64-bit (Version 21.10)
 ## Division of Nodes
 * Team Number *4*
 * Considered nodes from 150 to 200
