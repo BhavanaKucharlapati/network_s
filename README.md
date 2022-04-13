@@ -36,9 +36,6 @@ You'll also need to run the following commands to install some required packages
 ## To view the Output
  * Performed Ping test on all hosts
  * Use either ping all command or hostname ping hostname
-  
-## Output Screenshot
-  
 
 ## AUTHOR'S INFORMATION
 
