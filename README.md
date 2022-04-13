@@ -30,7 +30,7 @@ You'll also need to run the following commands to install some required packages
  
 ## RUN THE CODE  
 * Save the code to following path /mininet/custom  
-* Run by using this command sudo mn –custom <python file name.py>  --topo=<class name>
+* Run by using this command sudo mn –custom <python file name.py>  --topo= network
 * We have considered file name as *project1.py* and class name as *network*
 
 ## To view the Output
