@@ -24,7 +24,7 @@
 ## INSTALL PACKAGES
 You'll also need to run the following commands to install some required packages.  
 
- pip install pandas
+ sudo apt install python3-pandas
  
  
  
