@@ -43,6 +43,7 @@ You'll also need to run the following commands to install some required packages
  
  ## DDOS ATTACK
  * To launch ddos attack we have selected the ten nodes with highest degree and turned them off for about 25 minutes
+ * In our ddos attack we have used following the nodes 160,155,164,193,181,192,179,156,184,182
  
 ## AUTHOR'S INFORMATION
 
