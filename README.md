@@ -29,10 +29,28 @@ You'll also need to run the following commands to install some required packages
  ## INSTALL WIRESHARK
  sudo apt install wireshark
  
+ ## Libraries used
+ 
+* pandas - a Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and intuitive.
+
+* random - Python Random module is an in-built module of Python which is used to generate random numbers.
+
+* mininet.topo  - Mininet supports a simple Python API to create custom network topologies.
+
+* mininet.link - mininet.link.TCIntf Class Reference. Interface customized by tc (traffic control) utility Allows specification of bandwidth limits (various methods) as well as delay, loss and max queue length.
+
+* mininet.log - Mininet-specific logger Enable each mininet .py file to with one.
+
+* mininet.node - A virtual network node is simply a shell in a network namespace.
+
+* mininet.cli - Simple command-line interface to talk to nodes.
+ 
 ## RUN THE CODE  
 * Save the code to following path /mininet/custom  
 * Run by using this command sudo mn –custom <python file name.py>  --topo= network
+ ### Before DoS:
 * We have considered file name as *beforeddos.py* and class name as *project*
+ ### After Dos:
  * We have considered file name as *afterddos.py* and class name as *project*
 
  ## CAPTURING DATA ON WIRESHARK
@@ -43,7 +61,7 @@ You'll also need to run the following commands to install some required packages
  
  ## DDOS ATTACK
  * To launch ddos attack we have selected the ten nodes with highest degree and turned them off for about 25 minutes
- * In our ddos attack we have used following the nodes 160,155,164,193,181,192,179,156,184,182
+ * In order to launch ddos attack we have removed following nodes: *160,155,164,193,181,192,179,156,184,182*
  
 ## AUTHOR'S INFORMATION
 
